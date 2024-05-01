@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+        "module": "es2022",
+        "target": "es2022",
+        "moduleResolution": "node",
+        "allowJs": true,
+        "lib": [
+            "es6",
+            "dom"
+        ],
+        "outDir": "./public/js",
+        "declaration": true,
+        "noImplicitAny": false,
+        "strictNullChecks": false,
+        "esModuleInterop": true,
+        "removeComments": true,
+        "plugins": [
+            {
+                "name": "typescript-lit-html-plugin",
+                "tags": [
+                    "html",
+                    "template"
+                ]
+            },
+        ]
+    },
+    "include": [
+        "./resources/ts/*.ts"
+    ]
+}
